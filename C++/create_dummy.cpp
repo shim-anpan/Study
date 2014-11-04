@@ -11,12 +11,12 @@ int main()
     //std::string index = "grade,class,name,english,math,japanese";
     std::string index = "grade,class,name,history,sience";
     //ofstream fout("dummy.csv");
-    ofstream fout("dummy2.csv");
+    ofstream fout("dummy3.csv");
     fout << index << endl;
 
     srand( (unsigned int)time(NULL));
 
-    for(int i = 0; i < 1000000; i++)
+    for(int i = 0; i < 10; i++)
     {
         stringstream ss;
         string tmp;
